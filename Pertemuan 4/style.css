@@ -1,0 +1,20 @@
+p {
+   font-family: Arial, Helvetica, sans-serif
+   font-size: 50px;
+   font-weight: bold;
+   text-align: :left;
+
+   color: #FF0000'
+}
+
+.box {
+    background-color: blue;
+    width: 20;
+    height: 1;
+  
+    /* border: 2px solid black; */
+
+    margin-top: 100px;
+    padding-left: 30px;
+    display: inline;
+}
