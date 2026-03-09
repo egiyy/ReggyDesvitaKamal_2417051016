@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 320px;
+    margin: 80px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #bbb;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+p{
+    color: gray;
+    font-size: 14px;
+}
+
+form{
+    text-align: left;
+    margin-top: 20px;
+}
+
+label{
+    font-size: 14px;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.opsi{
+    display: flex;
+    justify-content: space-between;
+    font-size: center;
+    margin-bottom: 15px;
+}
+
+.opsi label{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #333;
+}
