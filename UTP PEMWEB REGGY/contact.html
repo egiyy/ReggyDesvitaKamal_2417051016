@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontak | Reggy Desvita Kamal</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,400&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  .contact-layout { display: flex; justify-content: center; }
+  .contact-split { display: block; max-width: 640px; width: 100%; text-align: center; }
+  .contact-left-big { font-size: clamp(3.5rem, 10vw, 7rem); margin-bottom: 1.2rem; }
+  .csoc-item { padding: 1rem 1.2rem; text-align: left; }
+  .contact-socials { text-align: left; }
+  .contact-desc { text-align: center; }
+</style>
+</head>
+<body>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-trail" id="cursor-trail"></div>
+
+<nav class="nav" id="nav">
+  <a href="index.html" class="nav-mark">✦ reggy</a>
+  <div class="nav-center">
+    <span class="nav-ticker">Saya senang berkenalan dengan orang baru. Jangan malu untuk menyapa! ✦ </span>
+  </div>
+  <button class="nav-burger" id="burger"><span></span><span></span></button>
+</nav>
+
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-links">
+    <a href="index.html" class="menu-link" data-num="01">Home</a>
+    <a href="about.html" class="menu-link" data-num="02">Tentang</a>
+    <a href="projects.html" class="menu-link" data-num="03">Projects</a>
+    <a href="skills.html" class="menu-link" data-num="04">Keahlian</a>
+    <a href="contact.html" class="menu-link" data-num="05">Kontak</a>
+  </div>
+  <div class="menu-footer"><span>S1 Ilmu Komputer · Universitas Lampung</span><span>NPM: 2417051016</span></div>
+</div>
+
+<div class="page-intro">
+  <div class="page-intro-row">
+    <div>
+      <div class="page-intro-num">05</div>
+      <h1 class="page-intro-title">Contact<br>Me.</h1>
+    </div>
+    <p class="page-intro-sub">Punya project keren? Mau kolaborasi? Atau sekadar mau say hi? Saya selalu terbuka!</p>
+  </div>
+</div>
+
+<div class="contact-layout">
+  <div class="contact-split reveal-left">
+
+    <div class="contact-left-big">
+      Reach<br>
+      <span>Out ✦</span>
+    </div>
+
+    <div class="contact-socials">
+      <a class="csoc-item" href="mailto:2417051016@students.unila.ac.id">
+        <span class="csoc-icon">📧</span>
+        <div>
+          <div style="font-size:0.7rem;color:var(--light-mid);letter-spacing:1px;text-transform:uppercase;">Email</div>
+          2417051016@students.unila.ac.id
+        </div>
+        <span class="csoc-arrow">↗</span>
+      </a>
+      <a class="csoc-item" href="https://github.com/egiyy" target="_blank">
+        <span class="csoc-icon">💻</span>
+        <div>
+          <div style="font-size:0.7rem;color:var(--light-mid);letter-spacing:1px;text-transform:uppercase;">GitHub</div>
+          github.com/egiyy
+        </div>
+        <span class="csoc-arrow">↗</span>
+      </a>
+      <a class="csoc-item" href="https://linkedin.com/in/reggydesvita" target="_blank">
+        <span class="csoc-icon">🔗</span>
+        <div>
+          <div style="font-size:0.7rem;color:var(--light-mid);letter-spacing:1px;text-transform:uppercase;">LinkedIn</div>
+          linkedin.com/in/reggydesvita
+        </div>
+        <span class="csoc-arrow">↗</span>
+      </a>
+      <a class="csoc-item" href="https://instagram.com/reggydsvtta" target="_blank">
+        <span class="csoc-icon">📸</span>
+        <div>
+          <div style="font-size:0.7rem;color:var(--light-mid);letter-spacing:1px;text-transform:uppercase;">Instagram</div>
+          @reggydsvtta
+        </div>
+        <span class="csoc-arrow">↗</span>
+      </a>
+    </div>
+
+    <div style="margin-top:2rem; padding:1.2rem; border:1.5px dashed var(--p3); border-radius:12px; background:var(--p1);">
+      <p style="font-family:var(--ff-serif); font-style:italic; font-size:0.9rem; color:var(--mid);">
+        💡 Biasanya saya balas dalam <strong style="color:var(--p6);">24 jam</strong>. Jika mendesak, DM Instagram yaa!
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<footer class="footer-inner-page">
+  <div class="fip-content">
+    <a href="index.html" class="fip-logo">RDK.</a>
+    <p class="fip-copy">© 2026 Reggy Desvita Kamal · Dibuat dengan cinta di Lampung ♡</p>
+    <div class="fip-links">
+      <a href="https://github.com/egiyy" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/reggydesvita" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

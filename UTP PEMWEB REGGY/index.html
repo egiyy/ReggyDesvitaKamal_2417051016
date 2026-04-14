@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reggy ✦ Digital Creator</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,400&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- CUSTOM CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-trail" id="cursor-trail"></div>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <a href="index.html" class="nav-mark">✦ Reggy</a>
+  <div class="nav-center">
+    <span class="nav-ticker" id="nav-ticker">Mahasiswa Ilmu Komputer · Universitas Lampung · Semester 4  </span>
+  </div>
+  <button class="nav-burger" id="burger">
+    <span></span><span></span>
+  </button>
+</nav>
+
+<!-- FULLSCREEN MENU OVERLAY -->
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-links">
+    <a href="index.html" class="menu-link" data-num="01">Home</a>
+    <a href="about.html" class="menu-link" data-num="02">Tentang</a>
+    <a href="projects.html" class="menu-link" data-num="03">Projects</a>
+    <a href="skills.html" class="menu-link" data-num="04">Keahlian</a>
+    <a href="contact.html" class="menu-link" data-num="05">Kontak</a>
+  </div>
+  <div class="menu-footer">
+    <span>S1 Ilmu Komputer · Universitas Lampung</span>
+    <span>NPM: 2417051016</span>
+  </div>
+</div>
+
+<!-- HERO - EDITORIAL LAYOUT -->
+<section class="hero">
+  <div class="hero-top">
+    <div class="hero-label">Portfolio ✦ 2026</div>
+    <div class="hero-label">Bandar Lampung, ID</div>
+  </div>
+
+  <div class="hero-main">
+    <div class="hero-col-left">
+      <div class="hero-sticker sticker-1">UI/UX🌸</div>
+      <p class="hero-intro-text">Halo! Saya <em>Reggy</em> — mahasiswi<br>Computer Science</p>
+    </div>
+
+    <div class="hero-headline-wrap">
+      <h1 class="hero-headline">
+        <span class="line l1">REGGY</span>
+        <span class="line l2">DES<span class="headline-dot">✦</span></span>
+        <span class="line l3">VITA</span>
+      </h1>
+    </div>
+
+    <div class="hero-col-right">
+      <div class="hero-sticker sticker-2">semester 4 🎓</div>
+      <div class="hero-scroll-hint">scroll ↓</div>
+    </div>
+  </div>
+
+  <div class="hero-bottom">
+    <a href="projects.html" class="hero-cta-pill">Lihat karya saya →</a>
+  </div>
+</section>
+
+<!-- MARQUEE STRIP -->
+<div class="marquee-strip">
+  <div class="marquee-inner">
+    <span>HTML & CSS ✦ JavaScript ✦ Python ✦ PHP ✦ MySQL ✦ Figma ✦ Canva ✦ Creative Thinking ✦ Public Speaking ✦ Design Thinking ✦</span>
+    <span>HTML & CSS ✦ JavaScript ✦ Python ✦ PHP ✦ MySQL ✦ Figma ✦ Canva ✦ Creative Thinking ✦ Public Speaking ✦ Design Thinking ✦</span>
+  </div>
+</div>
+
+<!-- SECTION: SEKILAS -->
+<section class="sekilas">
+  <div class="sekilas-grid">
+    <div class="sekilas-big-text">
+      <span class="eyebrow-tag">— About Me!</span>
+      <p>Hi, Saya <em>Reggy Desvita Kamal</em>. Saya senang mempelajari hal baru, terutama yang berkaitan dengan pemrograman dan sistem digital. Selain itu, saya juga aktif dalam kegiatan organisasi yang membantu saya mengembangkan kemampuan komunikasi, kerja sama tim, dan kepemimpinan.</p>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: HIGHLIGHT PROJECT (BENTO GRID) -->
+<section class="bento-section">
+  <div class="bento-header">
+    <span class="eyebrow-tag">— karya pilihan</span>
+    <h2 class="bento-title">That I made<br>with love ♡</h2>
+  </div>
+  <div class="bento-grid">
+
+    <a class="pm-card" href="https://www.figma.com/design/nUZF2n8tKUuxOd3KsE4rzr/Tugas-2_RPL?node-id=0-1&p=f&t=bIOoX4fKrinCCacN-0" target="_blank" data-cat="ui">
+      <div class="pm-thumb">☕</div>
+      <div class="pm-body">
+        <div class="pm-meta">
+          <span class="pm-cat">UI/UX</span>
+          <span class="pm-year">2026</span>
+        </div>
+        <h3>Design Aplikasi "Coffein"</h3>
+        <p>Desain aplikasi Coffein dengan nuansa hangat yang memudahkan pengguna dalam menjelajahi menu dan melakukan pemesanan secara nyaman.</p>
+        <div class="pm-tech">
+          <span>Figma</span>
+        </div>
+      </div>
+    </a>
+
+    <a class="pm-card" href="https://github.com/ryharistianata/Project_UAP_Petruk_Responsi" target="_blank" data-cat="backend">
+      <div class="pm-thumb">🏨</div>
+      <div class="pm-body">
+        <div class="pm-meta">
+          <span class="pm-cat">Console Application</span>
+          <span class="pm-year">2025</span>
+        </div>
+        <h3>Reservation Hotel</h3>
+        <p>Program ini menangani proses data, alur logika, dan manajemen sistem seperti pemesanan, antrian, dan sorting.</p>
+        <div class="pm-tech">
+          <span>C++</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- CTA CARD -->
+    <a href="projects.html" class="bento-card bcard-4">
+      <span>Lihat semua project</span>
+      <div style="font-size:2rem; margin-top:1rem;">→</div>
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER HOMEPAGE -->
+<footer class="footer-home">
+  <div class="footer-home-inner">
+    <a href="contact.html" class="footer-cta-big">Yuk ngobrol! 💬</a>
+    <div class="footer-home-links">
+      <a href="https://github.com/egiyy" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/reggydesvita" target="_blank">LinkedIn</a>
+      <a href="https://instagram.com/reggydsvtta" target="_blank">Instagram</a>
+    </div>
+    <p class="footer-copy">© 2026 Reggy Desvita Kamal · Dibuat, dengan cinta, di Lampung ♡</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
